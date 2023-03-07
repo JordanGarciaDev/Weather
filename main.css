@@ -1,0 +1,433 @@
+
+
+
+
+header .navbar-inverse {
+    background-color: #43a4d2;
+    border-color: #43a4d2;
+}
+header .navbar-inverse a {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.3em;
+}
+header .navbar-inverse .navbar-nav>.active>a, header .navbar-inverse .navbar-nav>.active>a:focus, header .navbar-inverse .navbar-nav>.active>a:hover {
+    background: #5b92ad;
+}
+header .navbar {
+    margin-bottom: 20px;
+}
+header .navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+}
+header .navbar-inverse .navbar-brand {
+    color: #fff;
+}
+header .navbar-inverse .navbar-collapse, header .navbar-inverse .navbar-form {
+    border-color: #fff;
+}
+header .navbar-inverse .navbar-collapse, header .navbar-inverse .navbar-form {
+    width: 100%;
+    margin-left: 1px;
+    text-align: center;
+}
+.currentStats {
+    background: #2c97ca;
+    color: #fff;
+}
+.currentStats {padding: 4px;}
+.currentStats li {
+    list-style: none;
+    border-bottom: solid 1px #ccc;
+    margin-bottom: 8px;
+    padding-bottom: 10px;
+    font-size: 1.4em;
+}
+.wfvalue {
+    background: #0574a9;
+    font-size: 0.98em;
+    padding: 2px;
+    border-radius: 4px;
+}
+#myMap {
+    width: 100%; height: 332px; border: 2px solid #049ee6;
+}
+
+.spinner {
+    margin: 100px auto;
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    font-size: 10px;
+    z-index: 999;
+    display: none;
+    position: fixed;
+    left: 0; right: 0; top: 40px;
+}
+@media only screen and (max-width: 763px) {
+    .spinner {
+        top: 160px;
+    }
+    .currentStats {margin-bottom: 4px;}
+}
+
+.spinner > div {
+    background-color: #43a4d2;
+    height: 100%;
+    width: 6px;
+    display: inline-block;
+
+    -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
+    animation: sk-stretchdelay 1.2s infinite ease-in-out;
+}
+
+.top_small_data {
+    background: #e4ca3d;
+    padding: 2px;
+    margin-top: 4px;
+    color: #000;
+    font-size: 0.86em;
+}
+.spinner .rect2 {
+    -webkit-animation-delay: -1.1s;
+    animation-delay: -1.1s;
+}
+
+.spinner .rect3 {
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s;
+}
+
+.spinner .rect4 {
+    -webkit-animation-delay: -0.9s;
+    animation-delay: -0.9s;
+}
+
+.spinner .rect5 {
+    -webkit-animation-delay: -0.8s;
+    animation-delay: -0.8s;
+}
+
+/*.circle-icon {
+    background: #fff;
+    width: 22px;
+    height: 28px;
+    border-radius: 60%;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    padding: 2px;
+    padding-top: 6px;
+    color: #000;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    font-size: 0.8em;
+}*/
+
+.forecast .col-sm-2 {
+    width: 14.285%;
+}
+.forecast .col-sm-2 {
+    padding-right: 4px; padding-left: 4px;
+}
+@media only screen and (max-width: 768px) {
+    .forecast .col-sm-2 {
+        width: 100%;
+    }
+}
+
+
+@-webkit-keyframes sk-stretchdelay {
+    0%, 40%, 100% { -webkit-transform: scaleY(0.4) }
+    20% { -webkit-transform: scaleY(1.0) }
+}
+
+@keyframes sk-stretchdelay {
+    0%, 40%, 100% {
+        transform: scaleY(0.4);
+        -webkit-transform: scaleY(0.4);
+    }  20% {
+           transform: scaleY(1.0);
+           -webkit-transform: scaleY(1.0);
+       }
+}
+.forecast {
+    padding-top: 8px;
+    margin-top: 8px;
+    display: block;
+}
+.fcitem {
+    background: #ccc;
+}
+#ajaxld { height: auto;}
+
+.fcitem {
+    background: #69c5f1; text-align: center; color: #fff; padding: 1px;
+}
+.itmhead {
+    background: #0a70a0;
+    /* border: solid 2px #fff; */
+    padding: 2px;
+    margin: 4px;
+    margin-top: 4px;
+}
+.itmfc {
+    background: #2c97ca; padding: 4px; margin: 4px; border: solid 2px #fff;
+}
+.fvalue {
+    background: #0e7eb3;
+}
+.fcitem i {
+    font-size: 1.7em; margin-bottom: 6px;
+    color: #fdd12b;
+}
+.fcitem p {
+    margin-bottom: 0.5em;
+    font-size: 0.95em;
+}
+.fcitem h4 {
+    margin-bottom: 0.1em;
+}
+
+.winddir {text-align: center; padding: 8px; padding-left: 4px; margin: 8px; background: #0a70a0; overflow:auto; color: #fff;}
+.windDir .container {}
+.winddir i {font-size: 4.3em;}
+
+
+
+
+.humidity_graph, .tempgraph {
+    border: solid 1px #5ec0ef; /*padding-right: 8px; padding-left: 8px;*/ overflow: hidden;
+}
+.humidity_chart, .tempchart {
+    margin-right: 8px;
+}
+.cs-header {
+    font-size: 1.3em; display: block;
+    padding-bottom: 4px;
+    border-bottom: solid 2px #2c97ca;
+}
+
+.ic_container {
+    /*height: 40px; width: 70px; border-radius: 50%;border:solid 1px #000;*/
+}
+
+
+
+footer {background: #166a92; padding: 12px; margin: 8px; color: #fff;}
+
+
+
+
+
+header .navbar-inverse {
+    background-color: #43a4d2;
+    border-color: #43a4d2;
+}
+header .navbar-inverse a {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.3em;
+}
+header .navbar-inverse .navbar-nav>.active>a, header .navbar-inverse .navbar-nav>.active>a:focus, header .navbar-inverse .navbar-nav>.active>a:hover {
+    background: #5b92ad;
+}
+header .navbar {
+    margin-bottom: 20px;
+}
+header .navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+}
+header .navbar-inverse .navbar-brand {
+    color: #fff;
+}
+header .navbar-inverse .navbar-collapse, header .navbar-inverse .navbar-form {
+    border-color: #fff;
+}
+header .navbar-inverse .navbar-collapse, header .navbar-inverse .navbar-form {
+    width: 100%;
+    margin-left: 1px;
+    text-align: center;
+}
+.currentStats {
+    background: #2c97ca;
+    color: #fff;
+}
+.currentStats {padding: 4px;}
+.currentStats li {
+    list-style: none;
+    border-bottom: solid 1px #ccc;
+    margin-bottom: 8px;
+    padding-bottom: 10px;
+    font-size: 1.4em;
+}
+.wfvalue {
+    background: #0574a9;
+    font-size: 0.98em;
+    padding: 2px;
+    border-radius: 4px;
+}
+#myMap {
+    width: 100%; height: 332px; border: 2px solid #049ee6;
+}
+
+.spinner {
+    margin: 100px auto;
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    font-size: 10px;
+    z-index: 999;
+    display: none;
+    position: fixed;
+    left: 0; right: 0; top: 40px;
+}
+@media only screen and (max-width: 763px) {
+    .spinner {
+        top: 160px;
+    }
+    .currentStats {margin-bottom: 4px;}
+}
+
+.spinner > div {
+    background-color: #43a4d2;
+    height: 100%;
+    width: 6px;
+    display: inline-block;
+
+    -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
+    animation: sk-stretchdelay 1.2s infinite ease-in-out;
+}
+
+.top_small_data {
+    background: #e4ca3d;
+    padding: 2px;
+    margin-top: 4px;
+    color: #000;
+    font-size: 0.86em;
+}
+.spinner .rect2 {
+    -webkit-animation-delay: -1.1s;
+    animation-delay: -1.1s;
+}
+
+.spinner .rect3 {
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s;
+}
+
+.spinner .rect4 {
+    -webkit-animation-delay: -0.9s;
+    animation-delay: -0.9s;
+}
+
+.spinner .rect5 {
+    -webkit-animation-delay: -0.8s;
+    animation-delay: -0.8s;
+}
+
+/*.circle-icon {
+    background: #fff;
+    width: 22px;
+    height: 28px;
+    border-radius: 60%;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    padding: 2px;
+    padding-top: 6px;
+    color: #000;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    font-size: 0.8em;
+}*/
+
+.forecast .col-sm-2 {
+    width: 14.285%;
+}
+.forecast .col-sm-2 {
+    padding-right: 4px; padding-left: 4px;
+}
+@media only screen and (max-width: 768px) {
+    .forecast .col-sm-2 {
+        width: 100%;
+    }
+}
+
+
+@-webkit-keyframes sk-stretchdelay {
+    0%, 40%, 100% { -webkit-transform: scaleY(0.4) }
+    20% { -webkit-transform: scaleY(1.0) }
+}
+
+@keyframes sk-stretchdelay {
+    0%, 40%, 100% {
+        transform: scaleY(0.4);
+        -webkit-transform: scaleY(0.4);
+    }  20% {
+           transform: scaleY(1.0);
+           -webkit-transform: scaleY(1.0);
+       }
+}
+.forecast {
+    padding-top: 8px;
+    margin-top: 8px;
+    display: block;
+}
+.fcitem {
+    background: #ccc;
+}
+#ajaxld { height: auto;}
+
+.fcitem {
+    background: #69c5f1; text-align: center; color: #fff; padding: 1px;
+}
+.itmhead {
+    background: #0a70a0;
+    /* border: solid 2px #fff; */
+    padding: 2px;
+    margin: 4px;
+    margin-top: 4px;
+}
+.itmfc {
+    background: #2c97ca; padding: 4px; margin: 4px; border: solid 2px #fff;
+}
+.fvalue {
+    background: #0e7eb3;
+}
+.fcitem i {
+    font-size: 1.7em; margin-bottom: 6px;
+    color: #fdd12b;
+}
+.fcitem p {
+    margin-bottom: 0.5em;
+    font-size: 0.95em;
+}
+.fcitem h4 {
+    margin-bottom: 0.1em;
+}
+
+.winddir {text-align: center; padding: 8px; padding-left: 4px; margin: 8px; background: #0a70a0; overflow:auto; color: #fff;}
+.windDir .container {}
+.winddir i {font-size: 4.3em;}
+
+
+
+
+.humidity_graph, .tempgraph {
+    border: solid 1px #5ec0ef; /*padding-right: 8px; padding-left: 8px;*/ overflow: hidden;
+}
+.humidity_chart, .tempchart {
+    margin-right: 8px;
+}
+.cs-header {
+    font-size: 1.3em; display: block;
+    padding-bottom: 4px;
+    border-bottom: solid 2px #2c97ca;
+}
+
+.ic_container {
+    /*height: 40px; width: 70px; border-radius: 50%;border:solid 1px #000;*/
+}
+
+
+
+footer {background: #166a92; padding: 12px; margin: 8px; color: #fff;}
